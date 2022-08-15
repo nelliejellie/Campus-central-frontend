@@ -1,0 +1,10 @@
+/** @format */
+
+.modalsmall {
+	width: 600px;
+	height: 600px;
+	margin: auto;
+	background: #ffffff;
+	border-radius: 4px;
+	z-index: 9999999999;
+}

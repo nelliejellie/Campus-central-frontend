@@ -1,0 +1,26 @@
+/** @format */
+
+nav {
+	height: 12vh;
+}
+.input {
+	width: 100%;
+	border: 1px solid;
+	box-shadow: none;
+	outline: none;
+	border-radius: 4px;
+	padding: 10px 20px;
+}
+.icon {
+	margin-right: 14px;
+	font-size: 24px;
+	color: #0f6d5f;
+}
+
+.green {
+	color: #0f6d5f;
+}
+
+.bg {
+	background-color: #0f6d5f;
+}

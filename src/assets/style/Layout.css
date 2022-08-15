@@ -1,0 +1,69 @@
+/** @format */
+.logo {
+	width: 100%;
+	height: 40px;
+	object-fit: contain;
+}
+.logo-2 {
+	width: 36px;
+	height: 40px;
+	object-fit: contain;
+}
+.root {
+	display: flex;
+	min-height: 100vh;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	align-items: center;
+	width: 100%;
+}
+.drawer {
+	width: 240px;
+	/* z-index: 999999; */
+	height: 100vh;
+	padding: 10px 10px;
+}
+.appBar {
+	z-index: 9999999;
+	background-color: #fff;
+}
+.appBarShift {
+	margin-left: 240;
+}
+.menuButton {
+	cursor: pointer;
+	color: #edbf21;
+}
+.hide {
+	display: none;
+}
+.drawerPaper {
+	width: 240px;
+}
+.drawerOpen {
+	width: 240px;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+}
+.drawerClose {
+	overflow-x: hidden;
+	width: 80px;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+}
+.content {
+	flex-grow: 1;
+	margin: 0;
+	padding: 2px;
+	min-height: 100vh;
+	width: 100%;
+}
+header {
+	height: 12vh;
+}
+.container {
+	height: 100vh;
+	overflow-y: auto;
+	padding: 0;
+	margin: 0;
+}
